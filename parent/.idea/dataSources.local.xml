@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - troutee@localhost" uuid="68d4b2af-152b-4da2-878a-d1ed7a275f2b">
+      <user-name>postgres</user-name>
+      <user-password>dfc9dfc6dfcbdfd8dfc5dfcedfcfdfc6dfdfdfc4dfcb</user-password>
+      <schema-pattern>troutee.pg_catalog troutee.public troutee.troutee</schema-pattern>
+      <default-schemas>troutee.pg_catalog troutee.public troutee.troutee</default-schemas>
+    </data-source>
+  </component>
+</project>

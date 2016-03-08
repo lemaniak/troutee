@@ -1,0 +1,8 @@
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/request/XSignup.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/response/XUserResponse.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/response/XBaseResponse.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/validation/decl/ValidEmail.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/response/XBaseErrorResponse.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/response/XLoginResponse.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/request/XLogin.java
+/home/vicente/development/sandbox/troutee/project/model/src/main/java/com/troutee/model/validation/impl/ValidEmailValidator.java

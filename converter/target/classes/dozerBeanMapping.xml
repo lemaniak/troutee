@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <configuration>
+        <stop-on-errors>true</stop-on-errors>
+        <date-format>MM/dd/yyyy HH:mm</date-format>
+        <wildcard>true</wildcard>
+        <relationship-type>non-cumulative</relationship-type>
+        <custom-converters>
+            <converter type="com.troutee.converter.mappers.UserStatusConverter" >
+                <class-a>com.troutee.domain.UserStatus</class-a>
+                <class-b>java.lang.String</class-b>
+            </converter>
+        </custom-converters>
+    </configuration>
+
+    <!--User-->
+    <mapping map-empty-string="false" map-null="true">
+        <class-a>com.troutee.model.request.XSignup</class-a>
+        <class-b>com.troutee.domain.Tuser</class-b>
+        <field>
+            <a>password</a>
+            <b>credential</b>
+        </field>
+    </mapping>
+
+    <mapping map-empty-string="false" map-null="true">
+        <class-a>com.troutee.model.response.XUserResponse</class-a>
+        <class-b>com.troutee.domain.Tuser</class-b>
+    </mapping>
+
+    <mapping map-empty-string="false" map-null="true">
+        <class-a>com.troutee.model.response.XLoginResponse</class-a>
+        <class-b>com.troutee.domain.Tuser</class-b>
+    </mapping>
+
+
+</mappings>
