@@ -4,15 +4,13 @@ import com.troutee.api.beans.user.decl.UserCreator;
 import com.troutee.api.beans.user.decl.UserFinder;
 import com.troutee.api.services.decl.UserService;
 import com.troutee.api.util.CryptoUtils;
-import com.troutee.api.util.ErrorData;
 import com.troutee.api.util.Utils;
 import com.troutee.converter.mappers.LoginMapper;
 import com.troutee.converter.mappers.UserMapper;
 import com.troutee.domain.Tuser;
-import com.troutee.domain.UserStatus;
+import com.troutee.domain.Status;
 import com.troutee.model.request.XLogin;
 import com.troutee.model.request.XSignup;
-import com.troutee.model.response.XBaseErrorResponse;
 import com.troutee.model.response.XBaseResponse;
 import com.troutee.model.response.XLoginResponse;
 import com.troutee.model.validation.decl.ValidEmail;
@@ -22,7 +20,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.core.Context;
-import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.Response;
 import java.util.Date;
 
@@ -49,7 +46,7 @@ public class UserServiceImpl implements UserService {
         }else{
             Tuser tuser = userMapper.convertTo(signUp);
             tuser.setCreatedAt(new Date());
-            tuser.setStatus(UserStatus.INACTIVE);
+            tuser.setStatus(Status.INACTIVE);
             tuser.setCredential(CryptoUtils.encrypt(tuser.getCredential()));
             userCreator.create(tuser);
             XBaseResponse response = new XBaseResponse("user",userMapper.convertFrom(tuser));

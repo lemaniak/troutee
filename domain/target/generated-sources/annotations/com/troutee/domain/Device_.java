@@ -11,7 +11,7 @@ public abstract class Device_ {
 
 	public static volatile SingularAttribute<Device, String> phone;
 	public static volatile SingularAttribute<Device, Date> trackStartTime;
-	public static volatile SingularAttribute<Device, Status> status;
+	public static volatile SingularAttribute<Device, RegistrationStatus> status;
 	public static volatile SingularAttribute<Device, Date> trackEndTime;
 	public static volatile SingularAttribute<Device, String> lastname;
 	public static volatile SingularAttribute<Device, String> image;

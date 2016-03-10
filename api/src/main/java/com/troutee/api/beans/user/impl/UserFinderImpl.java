@@ -78,4 +78,18 @@ public class UserFinderImpl implements UserFinder {
             }
         }
     }
+
+    public Boolean userExistsById(Integer id) {
+        if (id == null) {
+            throw new IllegalArgumentException("id is required");
+        } else {
+            try {
+                return  (Boolean) em.createNamedQuery("User.exists.by.id").setParameter(1,id).getSingleResult();
+            } catch (NoResultException nre) {
+                return false;
+            }
+        }
+    }
+
+
 }

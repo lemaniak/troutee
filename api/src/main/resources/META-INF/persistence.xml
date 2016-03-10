@@ -4,9 +4,9 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>java:/troutee</jta-data-source>
 
-        <mapping-file>META-INF/queries/user-finder-queries.xml</mapping-file>
-        <!--<mapping-file>META-INF/queries/user-deleter-queries.xml</mapping-file>-->
-        <!--<mapping-file>META-INF/queries/indie-user-finder-queries.xml</mapping-file>-->
+        <mapping-file>META-INF/queries/user-queries.xml</mapping-file>
+        <mapping-file>META-INF/queries/session-queries.xml</mapping-file>
+        <!--<mapping-file>META-INF/queries/indie-user-queries.xml</mapping-file>-->
 
         <class>com.troutee.domain.Client</class>
         <class>com.troutee.domain.ClientVisit</class>

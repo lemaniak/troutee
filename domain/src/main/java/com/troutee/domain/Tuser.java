@@ -10,7 +10,6 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.Date;
 import javax.persistence.*;
 
@@ -51,7 +50,7 @@ public class Tuser implements Serializable {
     @Basic(optional = false)
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private UserStatus status;
+    private Status status;
 
 
     public Tuser() {
@@ -61,7 +60,7 @@ public class Tuser implements Serializable {
         this.id = id;
     }
 
-    public Tuser(Integer id, String firstname, String lastname, String credential, String image, Date createdAt, UserStatus status) {
+    public Tuser(Integer id, String firstname, String lastname, String credential, String image, Date createdAt, Status status) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -135,11 +134,11 @@ public class Tuser implements Serializable {
         this.lastLogin = lastLogin;
     }
 
-    public UserStatus getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(UserStatus status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 

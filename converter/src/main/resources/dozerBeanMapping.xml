@@ -11,7 +11,7 @@
         <relationship-type>non-cumulative</relationship-type>
         <custom-converters>
             <converter type="com.troutee.converter.mappers.UserStatusConverter" >
-                <class-a>com.troutee.domain.UserStatus</class-a>
+                <class-a>com.troutee.domain.Status</class-a>
                 <class-b>java.lang.String</class-b>
             </converter>
         </custom-converters>

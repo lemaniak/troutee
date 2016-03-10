@@ -4,8 +4,8 @@ package com.troutee.domain;
  * Created by vicente on 25/02/16.
  */
 public enum Status {
-    REGISTERED("registered"),
-    UNREGISTERED("unregistered");
+    ACTIVE("active"),
+    INACTIVE("inactive");
 
     private Status(String value){
         this.value=value;

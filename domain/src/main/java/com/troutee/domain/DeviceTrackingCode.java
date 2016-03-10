@@ -36,7 +36,7 @@ public class DeviceTrackingCode implements Serializable {
     @Basic(optional = false)
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private Status status;
+    private RegistrationStatus registrationStatus;
     @JoinColumn(name = "device_id", referencedColumnName = "id")
     @ManyToOne
     private Device deviceId;
@@ -48,11 +48,11 @@ public class DeviceTrackingCode implements Serializable {
         this.id = id;
     }
 
-    public DeviceTrackingCode(Integer id, String code, Date expiresAt, Status status) {
+    public DeviceTrackingCode(Integer id, String code, Date expiresAt, RegistrationStatus registrationStatus) {
         this.id = id;
         this.code = code;
         this.expiresAt = expiresAt;
-        this.status = status;
+        this.registrationStatus = registrationStatus;
     }
 
     public Integer getId() {
@@ -79,12 +79,12 @@ public class DeviceTrackingCode implements Serializable {
         this.expiresAt = expiresAt;
     }
 
-    public Status getStatus() {
-        return status;
+    public RegistrationStatus getRegistrationStatus() {
+        return registrationStatus;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setRegistrationStatus(RegistrationStatus registrationStatus) {
+        this.registrationStatus = registrationStatus;
     }
 
     public Device getDeviceId() {

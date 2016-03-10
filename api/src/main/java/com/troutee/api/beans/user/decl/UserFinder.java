@@ -16,4 +16,6 @@ public interface UserFinder {
     Tuser getByEmail(String email);
 
     Boolean isEmailRegistered(String email);
+
+    Boolean userExistsById(Integer id);
 }

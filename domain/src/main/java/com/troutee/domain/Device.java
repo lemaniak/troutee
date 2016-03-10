@@ -10,7 +10,6 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.Date;
 import javax.persistence.*;
 
@@ -38,7 +37,7 @@ public class Device implements Serializable {
     @Basic(optional = false)
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private Status status;
+    private RegistrationStatus registrationStatus;
     @Column(name = "phone")
     private String phone;
     @Column(name = "code")
@@ -72,12 +71,12 @@ public class Device implements Serializable {
         this.id = id;
     }
 
-    public Device(Integer id, String firstname, String lastname, String image, Status status, String phone, String code, String trackUnit, int trackValue, Date trackStartTime, Date trackEndTime, TrackStatus trackStatus, Tuser userId) {
+    public Device(Integer id, String firstname, String lastname, String image, RegistrationStatus registrationStatus, String phone, String code, String trackUnit, int trackValue, Date trackStartTime, Date trackEndTime, TrackStatus trackStatus, Tuser userId) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.image = image;
-        this.status = status;
+        this.registrationStatus = registrationStatus;
         this.phone = phone;
         this.code = code;
         this.trackUnit = trackUnit;
@@ -176,12 +175,12 @@ public class Device implements Serializable {
         this.userId = userId;
     }
 
-    public Status getStatus() {
-        return status;
+    public RegistrationStatus getRegistrationStatus() {
+        return registrationStatus;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setRegistrationStatus(RegistrationStatus registrationStatus) {
+        this.registrationStatus = registrationStatus;
     }
 
     public TrackStatus getTrackStatus() {

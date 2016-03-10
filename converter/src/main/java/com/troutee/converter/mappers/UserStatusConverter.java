@@ -1,7 +1,7 @@
 package com.troutee.converter.mappers;
 
 
-import com.troutee.domain.UserStatus;
+import com.troutee.domain.Status;
 import com.troutee.exceptions.ServiceException;
 import org.dozer.CustomConverter;
 
@@ -21,12 +21,12 @@ public class UserStatusConverter implements CustomConverter {
 
         try{
             if(source instanceof String){
-                return UserStatus.fromValue((String) source);
-            }else if(source instanceof  UserStatus){
-                return ((UserStatus) source).getValue();
+                return Status.fromValue((String) source);
+            }else if(source instanceof Status){
+                return ((Status) source).getValue();
             }
         }catch(Exception ex){
-            throw new ServiceException("bussiness exception error mapping objects User Status Enum");
+            throw new ServiceException("bussiness exception error mapping objects User RegistrationStatus Enum");
         }
         return null;
     }
