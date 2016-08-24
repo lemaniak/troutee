@@ -27,6 +27,9 @@ public class Client implements Serializable {
     @Column(name = "id")
     private Integer id;
     @Basic(optional = false)
+    @Column(name = "code")
+    private String code;
+    @Basic(optional = false)
     @Column(name = "name")
     private String name;
     @Column(name = "phone")
@@ -34,11 +37,14 @@ public class Client implements Serializable {
     @Basic(optional = false)
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
-    private ClientStatus status;
+    private ClientStatus status;//to see if client already have coordenates setup
     @Column(name = "lat")
     private Double lat;
     @Column(name = "lon")
     private Double lon;
+    @Basic(optional = false)
+    @Column(name = "version")
+    private Integer version;
 
     public Client() {
     }
@@ -47,10 +53,8 @@ public class Client implements Serializable {
         this.id = id;
     }
 
-    public Client(Integer id, String name, ClientStatus status) {
-        this.id = id;
-        this.name = name;
-        this.status = status;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
     public Integer getId() {
@@ -59,6 +63,14 @@ public class Client implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public String getName() {
@@ -101,7 +113,13 @@ public class Client implements Serializable {
         this.lon = lon;
     }
 
+    public Integer getVersion() {
+        return version;
+    }
 
+    public void setVersion(Integer version) {
+        this.version = version;
+    }
 
     @Override
     public int hashCode() {

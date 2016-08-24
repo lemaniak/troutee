@@ -40,6 +40,11 @@ public class Session implements Serializable {
         this.tuser = tuser;
     }
 
+    public Session(String token, Status status, Tuser tuser) {
+        this.token = token;
+        this.status = status;
+        this.tuser = tuser;
+    }
 
     /**
      * @see Object#toString()

@@ -1,19 +1,14 @@
 package com.troutee.api.exception.mappers;
 
 
-import com.troutee.api.exception.NotFoundException;
-import com.troutee.api.util.ErrorData;
 import com.troutee.api.util.Utils;
-import com.troutee.exceptions.ValidationException;
-import com.troutee.model.response.XBaseErrorResponse;
+import com.troutee.bussiness.exceptions.NotFoundException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
-import java.text.MessageFormat;
-import java.util.Locale;
 
 /**
  * Created by vicente on 19/03/15.

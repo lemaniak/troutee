@@ -2,14 +2,13 @@ package com.troutee.api.exception.mappers;
 
 
 
-import com.troutee.api.util.ErrorData;
 import com.troutee.api.util.Utils;
-import com.troutee.exceptions.ServiceException;
-import com.troutee.model.response.XBaseErrorResponse;
+import com.troutee.bussiness.exceptions.ServiceException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
+
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
 

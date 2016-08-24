@@ -2,7 +2,6 @@ package com.troutee.api.exception.mappers;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.troutee.api.util.Utils;
-import com.troutee.model.response.XBaseErrorResponse;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;

@@ -19,6 +19,6 @@ public class UnrecognizedPropertyExceptionMapper implements ExceptionMapper<Unre
     private HttpServletRequest request;
 
     public Response toResponse(UnrecognizedPropertyException se) {
-        return Response.status(Response.Status.BAD_REQUEST).entity(Utils.getErrorResponse(request.getLocale(),se.getMessage())).build();
+        return Response.status(Response.Status.BAD_REQUEST).entity(Utils.getCustomErrorResponse(9003, "Unrecognized property "+se.getPropertyName())).build();
     }
 }

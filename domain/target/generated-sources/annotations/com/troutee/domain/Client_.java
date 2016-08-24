@@ -13,7 +13,9 @@ public abstract class Client_ {
 	public static volatile SingularAttribute<Client, String> phone;
 	public static volatile SingularAttribute<Client, ClientStatus> status;
 	public static volatile SingularAttribute<Client, String> name;
+	public static volatile SingularAttribute<Client, String> code;
 	public static volatile SingularAttribute<Client, Double> lat;
+	public static volatile SingularAttribute<Client, Integer> version;
 
 }
 

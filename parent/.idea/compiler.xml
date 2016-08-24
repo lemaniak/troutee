@@ -23,19 +23,19 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="api" />
+        <module name="bussiness_services" />
         <module name="converter" />
         <module name="domain" />
-        <module name="exception" />
+        <module name="exceptions" />
         <module name="model" />
+        <module name="validation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="api" target="1.7" />
-      <module name="converter" target="1.7" />
       <module name="domain" target="1.7" />
-      <module name="exception" target="1.7" />
-      <module name="model" target="1.7" />
       <module name="parent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
+

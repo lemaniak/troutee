@@ -10,6 +10,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 
 import java.io.Serializable;
+import java.util.Date;
 import javax.persistence.*;
 
 /**
@@ -28,18 +29,26 @@ public class ClientVisit implements Serializable {
     @JoinColumn(name = "client_id", referencedColumnName = "id")
     @ManyToOne
     private Client clientId;
-    @JoinColumn(name = "device_id", referencedColumnName = "id")
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     @ManyToOne
-    private Device deviceId;
-    @JoinColumn(name = "track_history_id", referencedColumnName = "id")
-    @ManyToOne
-    private TrackHistory trackHistoryId;
+    private Tuser userId;
+    @Column(name = "lat")
+    private Double lat;
+    @Column(name = "lon")
+    private Double lon;
+    @Column(name = "visit_date")
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date lastLogin;
 
     public ClientVisit() {
     }
 
     public ClientVisit(Integer id) {
         this.id = id;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
     public Integer getId() {
@@ -58,20 +67,36 @@ public class ClientVisit implements Serializable {
         this.clientId = clientId;
     }
 
-    public Device getDeviceId() {
-        return deviceId;
+    public Tuser getUserId() {
+        return userId;
     }
 
-    public void setDeviceId(Device deviceId) {
-        this.deviceId = deviceId;
+    public void setUserId(Tuser userId) {
+        this.userId = userId;
     }
 
-    public TrackHistory getTrackHistoryId() {
-        return trackHistoryId;
+    public Double getLat() {
+        return lat;
     }
 
-    public void setTrackHistoryId(TrackHistory trackHistoryId) {
-        this.trackHistoryId = trackHistoryId;
+    public void setLat(Double lat) {
+        this.lat = lat;
+    }
+
+    public Double getLon() {
+        return lon;
+    }
+
+    public void setLon(Double lon) {
+        this.lon = lon;
+    }
+
+    public Date getLastLogin() {
+        return lastLogin;
+    }
+
+    public void setLastLogin(Date lastLogin) {
+        this.lastLogin = lastLogin;
     }
 
     @Override

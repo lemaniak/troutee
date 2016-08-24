@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../api" />
+    <file type="web" url="file://$PROJECT_DIR$/../bussiness_services" />
   </component>
   <component name="IdProvider" IDEtalkID="68EADB1A47D1730A354FA0CC7F91FDD4" />
   <component name="MavenProjectsManager">
@@ -12,14 +13,21 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../domain/pom.xml" />
-        <option value="$PROJECT_DIR$/../model/pom.xml" />
-        <option value="$PROJECT_DIR$/../exception/pom.xml" />
-        <option value="$PROJECT_DIR$/../converter/pom.xml" />
         <option value="$PROJECT_DIR$/../api/pom.xml" />
+        <option value="$PROJECT_DIR$/../bussiness_services/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../converter/pom.xml" />
+        <option value="$PROJECT_DIR$/../exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../model/pom.xml" />
+        <option value="$PROJECT_DIR$/../validation/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
+

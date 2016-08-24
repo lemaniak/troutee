@@ -1,9 +1,0 @@
-com/troutee/model/request/XLogin.class
-com/troutee/model/validation/decl/ValidEmail.class
-com/troutee/model/validation/decl/ValidEmail$List.class
-com/troutee/model/response/XBaseErrorResponse.class
-com/troutee/model/response/XLoginResponse.class
-com/troutee/model/response/XBaseResponse.class
-com/troutee/model/request/XSignup.class
-com/troutee/model/response/XUserResponse.class
-com/troutee/model/validation/impl/ValidEmailValidator.class

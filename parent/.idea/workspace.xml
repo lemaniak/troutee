@@ -1,7 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fcbd4de-c33c-46fc-9f94-6569277dabfe" name="Default" comment="" />
+    <list default="true" id="3fcbd4de-c33c-46fc-9f94-6569277dabfe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientCreatorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientFinderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientRequestMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/ClientService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/ClientServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientUpdater.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientUpdaterImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/clientVisit/decl/ClientVisitCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/clientVisit/impl/ClientVisitCreatorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientVisitMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidClientId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidClientIdValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidLatitude.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidLatitudeValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidLongitude.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidLongitudeValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XCheckinRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XClientIds.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XClientRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientVersion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientVersions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientsResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/queries/client-queries.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/decl/SessionCreator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/decl/SessionUpdater.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/impl/SessionCreatorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/impl/SessionUpdaterImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserCreator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserDeleter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserFinder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserUpdater.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserCreatorImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserFinderImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/NotFoundException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/CryptoUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/resources/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/resources/META-INF/queries/session-queries.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/src/main/resources/META-INF/queries/user-queries.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/META-INF/queries/user-finder-queries.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/beans/user/decl/UserCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/beans/user/decl/UserDeleter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/beans/user/decl/UserFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/beans/user/decl/UserUpdater.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/beans/user/impl/UserCreatorImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/beans/user/impl/UserFinderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/NotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/util/CryptoUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/commons-digester-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/commons-validator-1.4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/converter-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/exceptions-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/model-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/META-INF/queries/user-finder-queries.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/beans/user/decl/UserCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/beans/user/decl/UserDeleter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/beans/user/decl/UserFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/beans/user/decl/UserUpdater.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/beans/user/impl/UserCreatorImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/beans/user/impl/UserFinderImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/NotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/util/CryptoUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/converter.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/LoginMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/UserStatusConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/producer/DozerMapperProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/src/main/resources/META-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/src/main/resources/dozerBeanMapping.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/classes/META-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/classes/com/troutee/converter/mappers/LoginMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/classes/com/troutee/converter/mappers/UserMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/classes/com/troutee/converter/mappers/UserStatusConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/classes/com/troutee/converter/producer/DozerMapperProducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/classes/dozerBeanMapping.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/converter-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../converter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Day.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Device.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceTracking.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceTrackingCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/RegistrationStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/TrackHistory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/TrackStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Day.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Device.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/DeviceDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/DeviceDistance_.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/DeviceTracking.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/DeviceTrackingCode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/DeviceTrackingCode_.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/DeviceTracking_.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Device_.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/TrackHistory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/TrackHistory_.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/TrackStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/UserStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/DeviceDistance_.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/DeviceTrackingCode_.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/DeviceTracking_.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/Device_.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/TrackHistory_.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/exception.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/src/main/java/com/troutee/exceptions/ServiceException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/src/main/java/com/troutee/exceptions/ValidationException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/classes/com/troutee/exceptions/ServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/classes/com/troutee/exceptions/ValidationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/exceptions-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../exception/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/model.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/request/XLogin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/request/XSignup.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XBaseErrorResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XBaseResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XLoginResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XUserResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/validation/decl/ValidEmail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/validation/impl/ValidEmailValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/request/XLogin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/request/XSignup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/response/XBaseErrorResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/response/XBaseResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/response/XLoginResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/response/XUserResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/validation/decl/ValidEmail$List.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/validation/decl/ValidEmail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/classes/com/troutee/model/validation/impl/ValidEmailValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../model/target/model-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/api/META-INF/persistence.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Client.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/ClientVisit.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/ClientVisit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/ClientVisit_.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/ClientVisit_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Client_.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Client_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/util/ErrorData.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/util/ErrorData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/util/ErrorData.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/util/ErrorData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/JsonMappingExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/JsonMappingExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/JsonMappingExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/JsonMappingExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/JsonParseExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/JsonParseExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/JsonParseExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/JsonParseExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/NotFoundExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/NotFoundExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/NotFoundExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/NotFoundExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/ServiceExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/ServiceExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/ServiceExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/ServiceExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Status.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Status.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/decl/TestService.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/decl/TestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/decl/TestService.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/decl/TestService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/impl/TestServiceImpl.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/impl/TestServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/impl/TestServiceImpl.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/impl/TestServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Tuser.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Tuser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Tuser_.class" afterPath="$PROJECT_DIR$/../domain/target/classes/com/troutee/domain/Tuser_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/decl/UserService.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/decl/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/decl/UserService.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/decl/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/services/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/services/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/util/Utils.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/util/Utils.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/ValidationExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/com/troutee/api/exception/mappers/ValidationExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/ValidationExceptionMapper.class" afterPath="$PROJECT_DIR$/../api/target/classes/com/troutee/api/exception/mappers/ValidationExceptionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/domain-1.0.0.jar" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/lib/domain-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/domain-1.0.0.jar" afterPath="$PROJECT_DIR$/../domain/target/domain-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Client.java" afterPath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/ClientVisit.java" afterPath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/ClientVisit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/ClientVisit_.java" afterPath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/ClientVisit_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/Client_.java" afterPath="$PROJECT_DIR$/../domain/target/generated-sources/annotations/com/troutee/domain/Client_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonParseExceptionMapper.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonParseExceptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/resources/MessagesBundle.properties" afterPath="$PROJECT_DIR$/../api/src/main/resources/MessagesBundle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/MessagesBundle.properties" afterPath="$PROJECT_DIR$/../api/target/api-1.0.0/WEB-INF/classes/MessagesBundle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/classes/MessagesBundle.properties" afterPath="$PROJECT_DIR$/../api/target/classes/MessagesBundle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/NotFoundExceptionMapper.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/NotFoundExceptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ServiceExceptionMapper.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ServiceExceptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Session.java" afterPath="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Session.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/UserService.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ValidationExceptionMapper.java" afterPath="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ValidationExceptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/api.iml" afterPath="$PROJECT_DIR$/../api/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/api_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/api_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/domain.iml" afterPath="$PROJECT_DIR$/../domain/domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../api/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../domain/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api/pom.xml" afterPath="$PROJECT_DIR$/../api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../domain/pom.xml" afterPath="$PROJECT_DIR$/../domain/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="parent.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/../api/target/" />
@@ -11,6 +241,9 @@
     <ignored path="$PROJECT_DIR$/../model/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../bussiness_services/target/" />
+    <ignored path="$PROJECT_DIR$/../validation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +283,24 @@
         <option name="myItemId" value="PostgreSQL - troutee@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="troutee.troutee" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="client_visit" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - troutee@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -57,7 +308,58 @@
     <favorites_list name="parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="137" column="45" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="troutee.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../api/src/main/resources/troutee.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.030100334">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,6 +375,9 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -81,57 +386,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XDeviceResponse.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XNewDeviceResponse.java" />
+        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/DeviceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/queries/device-queries.xml" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidTokenSequence.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidToken.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidTokenValidator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XCreateDeviceRequest.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XUpdatePasswordRequest.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XUpdateUserRequest.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientsResponse.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientMapper.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XTokenRequest.java" />
         <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/ClientVisit.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Device.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceDistance.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceTracking.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceTrackingCode.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/TrackHistory.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Tuser.java" />
-        <option value="$PROJECT_DIR$/../exception/src/main/java/com/troutee/exceptions/ValidationException.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XSignupResponse.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XBaseResponse.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/ErrorData.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/request/XSignup.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/resources/ValidationMessages.properties" />
-        <option value="$PROJECT_DIR$/../api/src/main/resources/ValidationMessages_es_CR.properties" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XBaseErrorResponse.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/NotFoundException.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XUserResponse.java" />
-        <option value="$PROJECT_DIR$/../converter/src/main/resources/dozerBeanMapping.xml" />
-        <option value="$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/LoginMapper.java" />
-        <option value="$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/UserMapper.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/NotFoundExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ServiceExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ValidationExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java" />
-        <option value="$PROJECT_DIR$/../converter/pom.xml" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonMappingExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonParseExceptionMapper.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/request/XLogin.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/validation/impl/ValidEmailValidator.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/resources/MessagesBundle_es_CR.properties" />
+        <option value="$PROJECT_DIR$/../../db/script.sql" />
+        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Client.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientCreator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientCreatorImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientUpdater.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/user/impl/UserUpdaterImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientUpdaterImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/RClientVersion.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XClientIds.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientVersions.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientResponse.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/RClientRequest.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidClientId.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidClientIdValidator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientRequestMapper.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientFinder.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/util/Utils.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/queries/client-queries.xml" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidCoordinate.java" />
+        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/ClientService.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/Delete.java" />
         <option value="$PROJECT_DIR$/../api/src/main/resources/MessagesBundle.properties" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/UserService.java" />
-        <option value="$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XLoginResponse.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../api/pom.xml" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/CryptoUtils.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Sessions.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/decl/SessionCreator.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/RegistrationStatus.java" />
-        <option value="$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Session.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/impl/SessionCreatorImpl.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/decl/SessionUpdater.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserFinder.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/resources/META-INF/queries/user-finder-queries.xml" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserFinderImpl.java" />
-        <option value="$PROJECT_DIR$/../api/src/main/resources/META-INF/queries/session-queries.xml" />
-        <option value="$PROJECT_DIR$/../api/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/impl/SessionUpdaterImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/clientVisit/decl/ClientVisitCreator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/clientVisit/impl/ClientVisitCreatorImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientVisitMapper.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/resources/dozerBeanMapping.xml" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidCoordinateValidator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidLongitude.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidLatitudeValidator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidLongitudeValidator.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XCheckinRequest.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XClientRequest.java" />
+        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/ClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientFinderImpl.java" />
+        <option value="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java" />
+        <option value="$PROJECT_DIR$/../api/src/main/resources/troutee.properties" />
       </list>
     </option>
   </component>
@@ -142,7 +447,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="/opt/apache-maven-3.3.9" />
+        <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -189,12 +494,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="1497" />
+    <option name="y" value="21" />
+    <option name="width" value="1863" />
+    <option name="height" value="1059" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -222,6 +527,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,7 +544,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +554,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -260,7 +568,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -278,7 +586,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'MessagesBundle'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -294,15 +650,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,15 +737,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.37816092" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -333,22 +754,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../api/src/main/resources/META-INF/queries" />
-      <recent name="$PROJECT_DIR$/../api/src/main/resources" />
-      <recent name="$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception" />
-      <recent name="$PROJECT_DIR$/../exception/src/main/java/com/troutee/exceptions" />
-      <recent name="$PROJECT_DIR$/../api/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/queries" />
+      <recent name="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request" />
+      <recent name="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/device/decl" />
+      <recent name="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness" />
+      <recent name="$PROJECT_DIR$/../bussiness_services/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/session" />
       <recent name="$PROJECT_DIR$/../api/src/main/resources" />
       <recent name="$PROJECT_DIR$/../api/src/main/webapp/WEB-INF" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.troutee.converter.mappers" />
-      <recent name="com.troutee.model.response" />
-      <recent name="com.troutee.api.exception.mappers" />
-      <recent name="com.troutee.api.exception" />
-      <recent name="com.troutee.domain" />
+      <recent name="com.troutee.bussiness.validation.impl" />
+      <recent name="com.troutee.bussiness.validation.decl" />
+      <recent name="com.troutee.bussiness.converter.mappers" />
+      <recent name="com.troutee.bussiness.beans.clientVisit.impl" />
+      <recent name="com.troutee.bussiness.beans.clientVisit.decl" />
     </key>
   </component>
   <component name="RunManager" selected="JBoss Server.troutee">
@@ -359,7 +784,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.troutee.api.util.CryptoUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.troutee.bussiness.util.CryptoUtils" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -369,6 +794,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.troutee.bussiness.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.troutee.bussiness.model.Delete" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bussiness_services" />
       <envs />
       <method />
     </configuration>
@@ -621,9 +1066,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Unknown" factoryName="Unknown">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -645,15 +1087,19 @@
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" />
+        <option name="SERVER_GROUP" value="" />
         <option name="USERNAME" value="vicente" />
         <option name="PASSWORD" value="clarodeluna" />
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="48488" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -672,10 +1118,10 @@
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
+          <option name="USE_DEFAULT" value="false" />
+          <option name="SCRIPT" value="/opt/wildfly-9.0.2.Final/bin/standalone.sh" />
           <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="  -b 0.0.0.0" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
@@ -687,10 +1133,10 @@
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
+          <option name="USE_DEFAULT" value="false" />
+          <option name="SCRIPT" value="/opt/wildfly-9.0.2.Final/bin/standalone.sh" />
           <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="-b 0.0.0.0" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
@@ -705,13 +1151,15 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.troutee" />
       <item index="1" class="java.lang.String" itemvalue="Application.CryptoUtils" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Delete" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CryptoUtils" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Delete" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CryptoUtils" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -759,11 +1207,83 @@
       <workItem from="1457480801000" duration="421000" />
       <workItem from="1457550668696" duration="4000" />
       <workItem from="1457569365559" duration="3705000" />
+      <workItem from="1457615541985" duration="92000" />
+      <workItem from="1457654325477" duration="4704000" />
+      <workItem from="1457713362672" duration="3628000" />
+      <workItem from="1457755878904" duration="26000" />
+      <workItem from="1457819828360" duration="46000" />
+      <workItem from="1457892176698" duration="6000" />
+      <workItem from="1458000017073" duration="4000000" />
+      <workItem from="1458170882494" duration="14011000" />
+      <workItem from="1458259184031" duration="3222000" />
+      <workItem from="1458353342084" duration="1856000" />
+      <workItem from="1459219690081" duration="1709000" />
+      <workItem from="1459311154174" duration="767000" />
+      <workItem from="1459391997154" duration="746000" />
+      <workItem from="1459473342403" duration="6824000" />
+      <workItem from="1459562242322" duration="9362000" />
+      <workItem from="1459817098900" duration="10747000" />
+      <workItem from="1459900580041" duration="3670000" />
+      <workItem from="1460509759264" duration="5292000" />
+      <workItem from="1461202698276" duration="977000" />
+      <workItem from="1461205168688" duration="2910000" />
+      <workItem from="1461288088003" duration="14000" />
+      <workItem from="1461624727894" duration="5289000" />
+      <workItem from="1461642639057" duration="1963000" />
+      <workItem from="1461697602232" duration="14000" />
+      <workItem from="1461709137595" duration="7104000" />
+      <workItem from="1461801653194" duration="3732000" />
+      <workItem from="1461885966334" duration="4249000" />
+      <workItem from="1462243988978" duration="2589000" />
+      <workItem from="1462320705936" duration="6014000" />
+      <workItem from="1462372090965" duration="10000" />
+      <workItem from="1462406511670" duration="29000" />
+      <workItem from="1462843786736" duration="57000" />
+      <workItem from="1462843881901" duration="1000000" />
+      <workItem from="1462913523141" duration="15000" />
+      <workItem from="1463019185134" duration="93000" />
+      <workItem from="1463019279344" duration="135000" />
+      <workItem from="1463019692624" duration="218000" />
+      <workItem from="1463019923477" duration="232000" />
+      <workItem from="1463020206418" duration="1455000" />
+      <workItem from="1463282712635" duration="607000" />
+      <workItem from="1463366871152" duration="30000" />
+      <workItem from="1463729676404" duration="86000" />
+      <workItem from="1463758007967" duration="1439000" />
+      <workItem from="1466736271895" duration="5643000" />
+      <workItem from="1466809948396" duration="6756000" />
+      <workItem from="1466914859545" duration="232000" />
+      <workItem from="1466994854598" duration="3433000" />
+      <workItem from="1467003960429" duration="4837000" />
+      <workItem from="1467085251889" duration="4622000" />
+      <workItem from="1467152650433" duration="6741000" />
+      <workItem from="1467255742579" duration="713000" />
+      <workItem from="1467334196159" duration="13654000" />
+      <workItem from="1467384328320" duration="681000" />
+      <workItem from="1467676170229" duration="651000" />
+      <workItem from="1467934521558" duration="8515000" />
+      <workItem from="1468010867672" duration="14165000" />
+      <workItem from="1468200360137" duration="642000" />
+      <workItem from="1468282891832" duration="63000" />
+      <workItem from="1468285706276" duration="774000" />
+      <workItem from="1468299403736" duration="4994000" />
+      <workItem from="1468375127210" duration="6067000" />
+      <workItem from="1468457008214" duration="9400000" />
+      <workItem from="1468543314808" duration="1944000" />
+      <workItem from="1468884315783" duration="1746000" />
+      <workItem from="1468889088555" duration="1666000" />
+      <workItem from="1468905591476" duration="1826000" />
+      <workItem from="1469236919962" duration="642000" />
+      <workItem from="1469584992094" duration="4638000" />
+      <workItem from="1469672147223" duration="1457000" />
+      <workItem from="1469757591152" duration="1897000" />
+      <workItem from="1471478685858" duration="13000" />
+      <workItem from="1472054246210" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65200000" />
+    <option name="totallyTimeSpent" value="284639000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -775,77 +1295,77 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="1497" y="21" width="1863" height="1059" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.49736643" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40770254" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40085745" sideWeight="0.50801545" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44610283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40770254" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49003986" sideWeight="0.50940555" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4401806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40085745" sideWeight="0.49198452" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4620015" sideWeight="0.5051282" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3360973" sideWeight="0.5138122" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33665007" sideWeight="0.49303323" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3241607" sideWeight="0.48618785" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44831398" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44695258" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33665007" sideWeight="0.50696677" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5016077" sideWeight="0.49585405" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33997345" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5227586" sideWeight="0.4936429" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33864543" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5750332" sideWeight="0.489842" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40085745" sideWeight="0.5058043" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49003986" sideWeight="0.50940555" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44610283" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4401806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44845748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44695258" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5016077" sideWeight="0.49806523" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5227586" sideWeight="0.4936429" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.49736643" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33997345" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33864543" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40770254" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40085745" sideWeight="0.4941957" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4620015" sideWeight="0.5051282" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33665007" sideWeight="0.4948718" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5751724" sideWeight="0.489842" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3360973" sideWeight="0.5138122" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32430398" sideWeight="0.48618785" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33665007" sideWeight="0.50696677" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -863,118 +1383,107 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserCreatorImpl.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserCreatorImpl.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserCreatorImpl.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserCreatorImpl.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ValidationExceptionMapper.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonParseExceptionMapper.java</url>
-          <line>22</line>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java</url>
-          <line>37</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/CryptoUtils.java</url>
+          <url>file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/util/CryptoUtils.java</url>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/amazon/impl/ImageUploadImpl.java</url>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="35" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/amazon/impl/ImageUploadImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/amazon/impl/ImageUploadImpl.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/amazon/impl/ImageUploadImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/SocketExceptionMapper.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/NotFoundExceptionMapper.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidSizeValidator.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java</url>
-          <line>41</line>
+          <line>172</line>
           <properties />
-          <option name="timeStamp" value="36" />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientFinderImpl.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java</url>
-          <line>89</line>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ServiceExceptionMapper.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java</url>
-          <line>68</line>
+          <line>106</line>
           <properties />
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/LoginMapper.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/ClientServiceImpl.java</url>
+          <line>188</line>
           <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/LoginMapper.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/LoginMapper.java</url>
-          <properties />
-          <option name="timeStamp" value="42" />
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="138" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JBossConfiguration">
-        <watch expression="classLoader.getResource(&quot;troutee.key&quot;)" language="JAVA" custom="" />
-        <watch expression="new Scanner(new File(classLoader.getResource(&quot;troutee.key&quot;).getPath()))" language="JAVA" custom="" />
+        <watch expression=" value.toString()" />
+        <watch expression="value.toString().matches(&quot;^([-+]?\\d{1,2}([.]\\d+)?),\\s*([-+]?\\d{1,3}([.]\\d+)?)$&quot;)" language="JAVA" custom="" />
       </configuration>
     </watches-manager>
   </component>
@@ -983,231 +1492,348 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/troutee/model/validation/decl/ValidEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.179402">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/ErrorData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19933555">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XUserResponse.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/response/XClientResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XLoginRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5182724">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.2987552">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/NotFoundExceptionMapper.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidSizeValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17427386">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidClientId.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="123" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/UnrecognizedPropertyExceptionMapper.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XSignupRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="39" selection-start-line="17" selection-start-column="3" selection-end-line="18" selection-end-column="39" />
+          <caret line="15" column="71" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../exception/src/main/java/com/troutee/exceptions/ServiceException.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XClientIds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2192691">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientRequestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/queries/user-queries.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/user/decl/UserFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/user/impl/UserFinderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/exceptions/ValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ServiceExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66206896">
-          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../exception/src/main/java/com/troutee/exceptions/ValidationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45517242">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7448276">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/TestServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/util/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/Scanner.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/resources/META-INF/queries/client-queries.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="654" column="11" selection-start-line="654" selection-start-column="11" selection-end-line="654" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16057585">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../converter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8405316">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonMappingExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74858224">
-          <caret line="22" column="133" selection-start-line="22" selection-start-column="133" selection-end-line="22" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/troutee/model/request/XLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64650285">
-          <caret line="23" column="0" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/validation/Valid.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16400911">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/troutee/model/validation/impl/ValidEmailValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15946844">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/ws/rs/core/Response.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3428246">
-          <caret line="199" column="8" selection-start-line="199" selection-start-column="8" selection-end-line="199" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.47302905">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ValidationExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
-          <folding />
+        <state vertical-scroll-proportion="0.373444">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/MessagesBundle_es_CR.properties">
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32743362">
+          <caret line="634" column="0" selection-start-line="634" selection-start-column="0" selection-end-line="634" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidEmailValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidClientIdValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/clientVisit/decl/ClientVisitCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024896266">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17427386">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19917013">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/clientVisit/impl/ClientVisitCreatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024896266">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16564417">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidTokenValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14723927">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16564417">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XTokenRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18404908">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/resources/dozerBeanMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/converter/mappers/ClientVisitMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69709545">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/MessagesBundle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60982656">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/UserService.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidLatitude.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/JsonParseExceptionMapper.java">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/decl/ValidLongitude.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidLongitudeValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024896266">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XCheckinRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/model/request/XClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3675048">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ResteasyViolationExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../converter/src/main/resources/dozerBeanMapping.xml">
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/validation/impl/ValidLatitudeValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/troutee/model/response/XLoginResponse.java">
+    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/ClientVisit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/20041127.091804/commons-codec-20041127.091804.jar!/org/apache/commons/codec/binary/Base64.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3428246">
-          <caret line="160" column="25" selection-start-line="160" selection-start-column="25" selection-end-line="160" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/CryptoUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6810631">
-          <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java">
+    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/exception/mappers/ServiceExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#2507#2508#0" expanded="false" />
-            <element signature="e#2549#2550#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../converter/src/main/java/com/troutee/converter/mappers/LoginMapper.java">
+    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2591362">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/target/classes/META-INF/queries/client-queries.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32365146">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/ClientStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17427386">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="174" column="38" selection-start-line="174" selection-start-column="33" selection-end-line="174" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/decl/ClientFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bussiness_services/src/main/java/com/troutee/bussiness/beans/client/impl/ClientFinderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="196" selection-start-line="40" selection-start-column="196" selection-end-line="40" selection-end-column="196" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/decl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1215,170 +1841,23 @@
     <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/services/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9003322">
-          <caret line="133" column="5" selection-start-line="21" selection-start-column="20" selection-end-line="133" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/DeviceTracking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47840533">
-          <caret line="33" column="28" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/RegistrationStatus.java">
+    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/util/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <caret line="137" column="45" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Device.java">
+    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/troutee.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="32" selection-start-line="36" selection-start-column="3" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/impl/SessionCreatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/decl/SessionCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/decl/SessionUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37873754">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/META-INF/queries/user-queries.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27906978">
-          <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/MessagesBundle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33027524">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/decl/UserUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15946844">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../domain/src/main/java/com/troutee/domain/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/META-INF/queries/session-queries.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09966777">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserCreatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/user/impl/UserFinderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6611296">
-          <caret line="77" column="13" selection-start-line="73" selection-start-column="12" selection-end-line="77" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api/src/main/java/com/troutee/api/beans/session/impl/SessionUpdaterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03986711">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.030100334">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1393,7 +1872,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37816092" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1406,7 +1885,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37816092" />
               </list>
             </option>
           </splitter-proportions>
@@ -1418,7 +1897,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37816092" />
               </list>
             </option>
           </splitter-proportions>
@@ -1430,7 +1909,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37816092" />
               </list>
             </option>
           </splitter-proportions>
@@ -1438,7 +1917,20 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>parent</last-edited>
+          <last-edited>domain</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37816092" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1454,12 +1946,15 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37816092" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

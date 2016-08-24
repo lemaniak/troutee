@@ -2,7 +2,7 @@ package com.troutee.api.exception.mappers;
 
 
 import com.troutee.api.util.Utils;
-import com.troutee.exceptions.ValidationException;
+import com.troutee.bussiness.exceptions.ValidationException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;

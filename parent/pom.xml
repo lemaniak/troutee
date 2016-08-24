@@ -13,7 +13,7 @@
             <id>vicente.san.silvestre</id>
             <name>Vicente San Silvestre</name>
             <email>lema017@gmail.com</email>
-            <organization>gap</organization>
+            <organization>codingideas.io</organization>
             <organizationUrl>https://www.codingideas.io/</organizationUrl>
             <roles>
                 <role>developer</role>
@@ -24,9 +24,7 @@
 
     <modules>
         <module>../domain</module>
-        <module>../model</module>
-        <module>../exception</module>
-        <module>../converter</module>
+        <module>../bussiness_services</module>
         <module>../api</module>
     </modules>
 
@@ -60,6 +58,11 @@
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-jpamodelgen</artifactId>
                 <version>4.3.8.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.10</version>
             </dependency>
             <dependency>
                 <groupId>commons-lang</groupId>
@@ -109,6 +112,14 @@
                 <groupId>org.wildfly</groupId>
                 <artifactId>wildfly-spec-api</artifactId>
                 <version>8.2.0.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-bom</artifactId>
+                <version>1.10.11</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
         </dependencies>

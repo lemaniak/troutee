@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../api/api.iml" filepath="$PROJECT_DIR$/../api/api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../converter/converter.iml" filepath="$PROJECT_DIR$/../converter/converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bussiness_services/bussiness_services.iml" filepath="$PROJECT_DIR$/../bussiness_services/bussiness_services.iml" />
       <module fileurl="file://$PROJECT_DIR$/../domain/domain.iml" filepath="$PROJECT_DIR$/../domain/domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../exception/exception.iml" filepath="$PROJECT_DIR$/../exception/exception.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../model/model.iml" filepath="$PROJECT_DIR$/../model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
     </modules>
   </component>

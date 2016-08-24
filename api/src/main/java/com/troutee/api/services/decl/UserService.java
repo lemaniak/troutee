@@ -1,8 +1,8 @@
 package com.troutee.api.services.decl;
 
-import com.troutee.model.request.XLogin;
-import com.troutee.model.request.XSignup;
-import com.troutee.model.validation.decl.ValidEmail;
+
+import com.troutee.bussiness.model.request.*;
+import com.troutee.bussiness.validation.decl.ValidEmail;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
@@ -22,13 +22,38 @@ public interface UserService {
     @Path("/signup")
     @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
     @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
-    Response signup(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XSignup signUp);
+    Response signup(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XSignupRequest xUser);
 
     @POST
     @Path("/login")
     @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
     @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
-    Response login(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XLogin login);
+    Response login(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XLoginRequest login);
+
+    @POST
+    @Path("/logout")
+    @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    Response logout(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XTokenRequest xTokenRequest);
+
+    @POST
+    @Path("/update")
+    @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    Response update(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XUpdateUserRequest xupdateUserRequest);
+
+    @POST
+    @Path("/update/password")
+    @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    Response updatePassword(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XUpdatePasswordRequest xUpdatePasswordRequest);
+
+    @POST
+    @Path("/validate_token")
+    @Consumes({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    @Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
+    Response validateToken(@Context HttpServletRequest request,@NotNull(message="{troutee.validation.empty.request}") @Valid XTokenRequest xTokenRequest);
+
 
     @GET
     @Path("/find_by_id")

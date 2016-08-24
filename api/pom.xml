@@ -17,7 +17,7 @@
             <id>vicente.san.silvestre</id>
             <name>Vicente San Silvestre</name>
             <email>lema017@gmail.com</email>
-            <organization>gap</organization>
+            <organization>codingideas.io</organization>
             <organizationUrl>https://www.codingideas.io/</organizationUrl>
             <roles>
                 <role>developer</role>
@@ -53,28 +53,10 @@
             <artifactId>javaee-api</artifactId>
         </dependency>
 
-        <!--Hibernate core entity manager-->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>dom4j</artifactId>
-                    <groupId>dom4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.10</version>
-        </dependency>
-
-        <!--JPA metamodel-->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-jpamodelgen</artifactId>
         </dependency>
 
         <!--for rest easy error mapping-->
@@ -87,39 +69,11 @@
             <artifactId>resteasy-validator-provider-11</artifactId>
         </dependency>
 
-        <!--EMAIL VALIDATOR-->
-        <dependency>
-            <groupId>commons-validator</groupId>
-            <artifactId>commons-validator</artifactId>
-        </dependency>
-
-        <!--petzila-->
-        <dependency>
-            <groupId>com.troutee</groupId>
-            <artifactId>domain</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
 
         <dependency>
             <groupId>com.troutee</groupId>
-            <artifactId>converter</artifactId>
+            <artifactId>bussiness_services</artifactId>
             <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.troutee</groupId>
-            <artifactId>model</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.troutee</groupId>
-            <artifactId>exceptions</artifactId>
-            <version>${project.version}</version>
-            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -134,9 +88,8 @@
         </dependency>
 
         <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.10</version>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
         </dependency>
 
         <!--TESTING-->

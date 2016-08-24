@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.0" xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd ">
+    <named-query name="Client.findbyid">
+        <query>SELECT c FROM Client c WHERE c.id = ?1</query>
+    </named-query>
+    <named-query name="Client.findbyname">
+        <query>SELECT c FROM Client c WHERE c.name like ?1</query>
+    </named-query>
+    <named-query name="Client.findbycode">
+        <query>SELECT c FROM Client c WHERE c.code like ?1</query>
+    </named-query>
+    <named-query name="Client.findall">
+        <query>SELECT c FROM Client c</query>
+    </named-query>
+    <named-query name="Client.findallRange">
+        <query>SELECT c FROM Client c WHERE c.id IN (?1)</query>
+    </named-query>
+
+
+</entity-mappings>
